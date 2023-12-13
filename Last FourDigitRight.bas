@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module5"
+Attribute VB_Name = "LastFourDigitRight"
 Sub FourDigitRight()
 Attribute FourDigitRight.VB_ProcData.VB_Invoke_Func = "S\n14"
 '
