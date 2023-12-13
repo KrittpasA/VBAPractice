@@ -22,3 +22,18 @@ Attribute FourDigitRight.VB_ProcData.VB_Invoke_Func = "S\n14"
     Selection.ClearContents
     ActiveCell.Offset(0, -2).Range("A1").Select
 End Sub
+
+Sub TimesNewRoman()
+'
+' TimesNewRoman Macro
+'
+' Keyboard Shortcut: Ctrl+Shift+T
+'
+    'Application.Left = 5.2
+    'Application.Top = 7.6
+    'Application.Width = 620.4
+    'Application.Height = 606.6
+    Cells.Select
+    Selection.Font.Name = "Times New Roman"
+        
+End Sub
