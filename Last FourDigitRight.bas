@@ -37,3 +37,15 @@ Sub TimesNewRoman()
     Selection.Font.Name = "Times New Roman"
         
 End Sub
+
+//////////// Activesheet Name ///////////
+Public Sub Test123()
+
+Sheets("Conservative1").Select
+ActiveSheet.Name = "Conservative"
+Sheets("Balanced1").Select
+ActiveSheet.Name = "Balanced"
+
+End Sub
+/////////////////////////////////////////
+
